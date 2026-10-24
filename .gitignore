@@ -1,0 +1,16 @@
+# Artefacto compilado: se genera con ./build.sh y se publica como adjunto de una release.
+*.zip
+
+# Credenciales: nunca al repositorio.
+.env
+.env.*
+
+# Herramientas de IA y editores
+.claude/
+.cursor/
+.idea/
+.vscode/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
